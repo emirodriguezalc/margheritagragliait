@@ -184,7 +184,7 @@ const Biografia = () => {
         </div>
         <div className={styles.bioImage}>
           <StaticImage
-            src="../../static/foto1.jpg"
+            src="../../static/foto1.webp"
             loading="eager"
             quality={95}
             objectFit="cover"

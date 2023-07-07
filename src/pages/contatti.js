@@ -27,7 +27,7 @@ const Contatti = () => (
         className={style.desktopOnly}
       >
         <StaticImage
-          src="../../static/foto1.jpg"
+          src="../../static/foto1.webp"
           loading="eager"
           quality={95}
           objectFit="cover"

@@ -161,7 +161,7 @@ const Articoli = () => {
             <em>De-omofobina. Pillole di conoscenza</em>, Geco, Torino&nbsp;{" "}
             <button
               onClick={() =>
-                window.open("/3_DE-OMOFOBINA.jpg", "_blank", "fullscreen=yes")
+                window.open("/3_DE-OMOFOBINA.webp", "_blank", "fullscreen=yes")
               }
             >
               LINK

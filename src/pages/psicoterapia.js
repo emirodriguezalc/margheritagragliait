@@ -234,7 +234,7 @@ const Psicoterapia = () => {
           </p>
           {readMore4 && (
             <>
-              <img src="/img_1.jpeg" className={style.rainbowImage} />
+              <img src="/img_1.webp" className={style.rainbowImage} />
               <p style={{ textAlign: "justify" }}>
                 Il sesso, il genere e l&rsquo;orientamento sessuale sono
                 dimensioni nucleari dell&rsquo;identit&agrave; umana e possono

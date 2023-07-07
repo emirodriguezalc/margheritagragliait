@@ -5,7 +5,7 @@ const HeroBanner = () => {
     {
       text: "Libro 1",
       url: "/libri/book-one",
-      image: "/th_differenze.jpeg",
+      image: "/th_differenze.webp",
       description: "Libro 1",
       amazonLink:
         "https://www.amazon.it/differenze-sesso-genere-orientamento/dp/8874668082/ref=sr_1_1?__mk_it_IT=ÅMÅŽÕÑ&crid=2TOEP8XY3KJV7&keywords=graglia+margherita&qid=1673814942&sprefix=graglia+margherita%2Caps%2C93&sr=8-1",
@@ -13,7 +13,7 @@ const HeroBanner = () => {
     {
       text: "Libro 2",
       url: "/libri/book-two",
-      image: "/th_omofobia.jpeg",
+      image: "/th_omofobia.webp",
       description: "Libro 2",
       amazonLink:
         "https://www.amazon.it/Omofobia-Strumenti-analisi-intervento-Margherita/dp/8874666454/ref=sr_1_2?__mk_it_IT=ÅMÅŽÕÑ&crid=2TOEP8XY3KJV7&keywords=graglia+margherita&qid=1673814942&sprefix=graglia+margherita%2Caps%2C93&sr=8-2",
@@ -21,7 +21,7 @@ const HeroBanner = () => {
     {
       text: "Libro 3",
       url: "/libri/book-three",
-      image: "/th_psicoterapia.jpeg",
+      image: "/th_psicoterapia.webp",
       description: "Libro 3",
       amazonLink:
         "https://www.amazon.it/Psicoterapia-omosessualità-Margherita-Graglia/dp/8874665695/ref=sr_1_3?__mk_it_IT=ÅMÅŽÕÑ&crid=2TOEP8XY3KJV7&keywords=graglia+margherita&qid=1673814942&sprefix=graglia+margherita%2Caps%2C93&sr=8-3",

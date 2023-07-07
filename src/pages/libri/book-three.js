@@ -15,7 +15,7 @@ const BookThree = () => (
         }}
       >
         <img
-          src="/th_psicoterapia.jpeg"
+          src="/th_psicoterapia.webp"
           style={{ width: "500px" }}
         />
       </div>

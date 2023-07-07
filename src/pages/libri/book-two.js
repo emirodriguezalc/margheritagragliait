@@ -15,7 +15,7 @@ const BookTwo = () => (
         }}
       >
         <img
-          src="/th_omofobia.jpeg"
+          src="/th_omofobia.webp"
           style={{ width: "500px" }}
         />
       </div>

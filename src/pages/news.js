@@ -2,18 +2,41 @@ import * as React from "react"
 import * as styles from "../components/index.module.css"
 
 import Layout from "../components/layout"
-import { Link } from "gatsby"
 import Seo from "../components/seo"
 
 const News = () => {
   const news = [
     {
       title:
+        "“Periferie in carriera. Carriera alias e pratiche inclusive nelle amministrazioni pubbliche”",
+      entity: "Città metropolitana di Torino",
+      location: "Nichelino",
+      data: "30 giugno 2023",
+      images: ["/carriera.webp"],
+    },
+    {
+      title:
+        "“Sottoscrizione del Protocollo operativo del Tavolo interistituzionale per il contrasto all’omotransnegatività e per l’inclusione delle persone LGBT“",
+      entity: "Telegiornale Rai Piemonte",
+      location: "Nichelino",
+      data: "12 giugno 2023",
+      video: "/omotransnegativita.mp4",
+    },
+    {
+      title:
+        "Sottoscrizione del Protocollo operativo del Tavolo interistituzionale per il contrasto all’omotransnegatività e per l’inclusione delle persone LGBT",
+      entity: "Comune di Nichelino",
+      location: "Comune di Nchelino",
+      data: "12 giugno 2023",
+      images: ["/protocollo.webp"],
+    },
+    {
+      title:
         "“Quanti generi di diversità?“",
       entity: "Università degli Studi di Firenze",
       location: "Firenze",
       data: "17 maggio 2023",
-      images: ["/quanti_generi.jpg"],
+      images: ["/quanti_generi.webp"],
     },
     {
       title:
@@ -21,7 +44,7 @@ const News = () => {
       entity: "SITCC",
       location: " Firenze",
       data: "13 maggio 2023",
-      images: ["/Invito_SITCCday_page-1.jpg", "/Invito_SITCCday_page-2.jpg"],
+      images: ["/Invito_SITCCday_page-1.webp", "/Invito_SITCCday_page-2.webp"],
     },
     {
       title:
@@ -29,14 +52,14 @@ const News = () => {
       entity: "Federazione italiana sessuologia scientifica",
       location: "Da remoto",
       data: "5 maggio 2023",
-      images: ["/aggiornamenti_fiss.jpeg"],
+      images: ["/aggiornamenti_fiss.webp"],
     },
     {
       title: "Valorizzare le differenze a scuola: percorsi e strumenti",
       entity: "",
       location: "Brescia",
       data: "7 marzo",
-      images: ["/news_1.jpg"],
+      images: ["/news_1.webp"],
     },
     {
       title:
@@ -44,7 +67,7 @@ const News = () => {
       entity: "Consiglio della provincia autonoma di Trento",
       location: "Trento",
       data: "4 marzo",
-      images: ["/news_2a.jpg", "/news_2b.jpg"],
+      images: ["/news_2a.webp", "/news_2b.webp"],
     },
     {
       title: "Intervista Telegiornale regionale",
@@ -127,7 +150,7 @@ const News = () => {
                   }}
                 >
                   <video controls style={{ width: "inherit" }}>
-                    <source src={"/video3.mp4"} type="video/mp4" />
+                    <source src={newItem.video} type="video/mp4" />
                   </video>
                 </div>
               )}

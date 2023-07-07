@@ -15,7 +15,7 @@ const BookOne = () => (
         }}
       >
         <img
-          src="/th_differenze.jpeg"
+          src="/th_differenze.webp"
           style={{ width: "500px" }}
         />
       </div>
